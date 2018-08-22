@@ -23,3 +23,5 @@ mix.scripts([
     'node_modules/mdbootstrap/js/bootstrap.min.js',
     'resources/assets/js/app.js'
 ], 'public/storage/js/lib.js');
+
+mix.copy('node_modules/mdbootstrap/font', 'public/storage/font');
